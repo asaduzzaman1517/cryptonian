@@ -1,0 +1,332 @@
+/*-------------------------------------------------------*
+	template-name: Cryptonian Landing Page HTML Template 
+	template-url: 
+	author-name: CompassTheme
+	author-url: https://themeforest.net/user/compasstheme
+	version: 1.0
+*-------------------------------------------------------*/
+
+
+/*-- medium-layout-1280px --*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .logo-area img {
+        max-width: 160px;
+        margin-top: 6px;
+    }
+    .main-menu ul li a {
+        padding: 10px;
+    }
+    .main-menu ul li .top-btn {
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .welcome-area .custom-btn:first-child {
+        margin-right: 10px;
+    }
+    .single-brand img {
+        height: 40px;
+        margin: auto;
+    }
+    .about-content {
+        padding-top: 30px;
+    }
+    .exchange-content {
+        padding-top: 10px;
+    }
+    .app-area .custom-btn:first-child {
+        margin-right: 10px;
+    }
+    .app-content {
+        padding-top: 50px;
+    }
+    .section-top p {
+        width: 50%;
+    }
+    .bonus-table ul li span {
+        padding: 40px 20px;
+    }
+    .single-member img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*-- tablet-layout-768px --*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .custom-navbar {
+        display: block;
+    }
+    .main-menu ul {
+        display: none;
+        float: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background: #222f3e;
+        width: 100%;
+        z-index: 9999;
+        padding: 30px;
+        border-radius: 2px;
+    }
+    .main-menu ul li {
+        display: block;
+        width: 50%;
+        float: left;
+        overflow: hidden;
+    }
+    .main-menu ul li .top-btn {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .welcome-area {
+        padding: 150px 0;
+    }
+    .welcome-area p {
+        width: 100%;
+    }
+    .welcome-area .custom-btn:first-child {
+        margin-right: 10px;
+    }
+    .single-brand img {
+        width: 130px;
+        height: 35px;
+    }
+    .about-content {
+        padding-top: 0;
+        width: 70%;
+    }
+    .about-image {
+        width: 70%;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .exchange-image {
+        width: 60%;
+        margin: auto;
+    }
+    .exchange-content {
+        width: 80%;
+    }
+    .margin-sm-50 {
+        margin-top: 50px;
+    }
+    .padding-sm-50 {
+        padding-top: 50px;
+    }
+    .token-content-left {
+        padding-top: 0;
+    }
+    .token {
+        width: 60%;
+        margin-top: 100px;
+    }
+    .app-image {
+        width: 60%;
+        margin: auto;
+    }
+    .app-area .custom-btn:first-child {
+        margin-right: 10px;
+    }
+    .app-content {
+        width: 80%;
+    }
+    .section-top p {
+        width: 70%;
+    }
+    .bonus-table ul li span {
+        padding: 30px 20px;
+        width: 32%;
+    }
+    .chart-image {
+        width: 60%;
+        margin: auto;
+    }
+    .chart-text {
+        padding-top: 80px;
+    }
+    .single-member {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+
+/*-- mobile-layout-320px --*/
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 48px;
+    }
+    .section-padding {
+        padding: 100px 0;
+    }
+    .section-margin {
+        margin-top: 72px;
+    }
+    .custom-navbar {
+        display: block;
+    }
+    .main-menu ul {
+        display: none;
+        float: left;
+        position: absolute;
+        top: 20px;
+        left: 0;
+        background: #222f3e;
+        width: 100%;
+        z-index: 9999;
+        padding: 20px 10px;
+        border-radius: 2px;
+    }
+    .main-menu ul li {
+        display: block;
+    }
+    .main-menu ul li a:hover {
+        color: #fff;
+    }
+    .main-menu ul li .top-btn {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .welcome-area {
+        padding: 100px 0;
+    }
+    .welcome-area p {
+        width: 100%;
+    }
+    .welcome-area .custom-btn:first-child {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .single-brand {
+        width: 50%;
+    }
+    .single-brand img {
+        width: 135px;
+        height: 35px;
+    }
+    .margin-xs-20 {
+        margin-bottom: 20px;
+    }
+    .about-image {
+        padding-top: 50px;
+    }
+    .features-area {
+        text-align: center;
+    }
+    .margin-xs-50 {
+        margin-top: 50px;
+    }
+    .padding-xs-50 {
+        padding-top: 50px;
+    }
+    .token-content-left {
+        padding-top: 0;
+    }
+    .collection-bar span {
+        font-size: 15px;
+    }
+    .info-item {
+        margin-bottom: 30px;
+    }
+    .token-sale-area .token {
+        padding: 48px 20px;
+        margin-top: 50px;
+    }
+    .app-area .custom-btn:first-child {
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .section-top p {
+        width: 100%;
+    }
+    .road-map-timeline ul li {
+        padding: 30px 20px;
+    }
+    .road-map-timeline ul li:nth-child(odd) .road-map-time {
+        right: -115px;
+    }
+    .road-map-timeline ul li:nth-child(even) .road-map-time {
+        left: -115px;
+    }
+    .bonus-table ul li span {
+        padding: 40px 0;
+        width: 32%;
+        font-size: 14px;
+    }
+    .chart-text {
+        padding-top: 50px;
+    }
+    .single-member {
+        width: 70%;
+        margin: auto;
+    }
+    .faq-accordion ul li {
+        padding: 10px 0;
+        margin: 0 10px;
+        border-bottom: none;
+    }
+    .faq-accordion ul .active,
+    .faq-accordion ul li:hover {
+        border-bottom: none;
+    }
+    .newsletter-area input[type="email"] {
+        padding: 12px 30px;
+        width: 300px;
+        margin: 0 10px 20px 0;
+    }
+    .newsletter-area .custom-btn {
+        margin-left: 0px;
+    }
+    .single-widget {
+        padding-left: 20px;
+    }
+    .footer-widget-area ul {
+        margin-top: 20px;
+    }
+}
+
+
+/*-- wide-mobile-layout-480px --*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .single-brand {
+        width: 33%;
+    }
+    .single-brand img {
+        width: 140px;
+        height: 35px;
+    }
+    .about-image {
+        width: 70%;
+        margin: auto;
+    }
+    .exchange-image {
+        width: 70%;
+        margin: auto;
+    }
+    .features-area {
+        text-align: left;
+    }
+    .token {
+        width: 380px;
+        margin: auto;
+    }
+    .app-image {
+        width: 60%;
+        margin: auto;
+    }
+    .chart-image {
+        width: 60%;
+        margin: auto;
+    }
+    .single-member {
+        width: 46%;
+        float: left;
+        overflow: hidden;
+        margin: 0 2%;
+    }
+}
